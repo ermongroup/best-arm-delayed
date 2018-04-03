@@ -1,11 +1,11 @@
-Best-arm identification in multi-armed bandits with delayed feedback
+Best arm identification in multi-armed bandits with delayed feedback
 ============================================
 
-This repository provides a reference implementation for learning Flow-GAN models as described in the paper:
+This repository provides a reference implementation for best arm identification in multi-armed bandits as described in the paper:
 
-> Best-arm identification in multi-armed bandits with delayed feedback  
+> Best arm identification in multi-armed bandits with delayed feedback  
 Aditya Grover, Todor Markov, Peter Attia, Norman Jin, Nicholas Perkins, Bryan Cheong, Michael Chen, Zi Yang, Stephen Harris, William Chueh, Stefano Ermon.  
-International Conference on Aritificial Intelligence and Statistics (AISTATS), 2018.   
+International Conference on Artificial Intelligence and Statistics (AISTATS), 2018.   
 Paper: https://arxiv.org/abs/1803.10937
 
 ## Requirements
@@ -73,7 +73,7 @@ python main.py --exp_type=delay
 If you find this repository useful in your research, please consider citing the following paper:
 
 >@inproceedings{grover2018best,  
-  title={Best-arm identification in multi-armed bandits with delayed feedback},  
+  title={Best arm identification in multi-armed bandits with delayed feedback},  
   author={Grover, Aditya and Markov, Todor and Attia, Peter and Jin, Norman and Perkins, Nicholas and Cheong, Bryan and Chen, Michael and Yang, Zi and Harris, Stephen and Chueh, William and Ermon, Stefano},  
-  booktitle={International Conference on Aritificial Intelligence and Statistics},  
+  booktitle={International Conference on Artificial Intelligence and Statistics},  
   year={2018}}
