@@ -21,7 +21,7 @@ pip install -r requirements.txt
 The `main.py` script which provides the following command line arguments.
 
 ```
-  --exp_type STR          One of 'free_means', 'bounded_means', 'delay', 'none'. First three reproduce paper results, last defines a new simulation
+  --exp_type STR          free_means', 'bounded_means', 'delay', or 'none'. First three reproduce paper results, 'none' is user-defined
   --n INT 				  number of total arms
   --delta FLOAT  		  1 - target confidence
   --k INT 				  number of top arms to be identified
