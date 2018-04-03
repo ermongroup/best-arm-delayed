@@ -4,7 +4,7 @@ Best-arm identification in multi-armed bandits with delayed feedback
 This repository provides a reference implementation for learning Flow-GAN models as described in the paper:
 
 > Best-arm identification in multi-armed bandits with delayed feedback  
-[Aditya Grover](https://aditya-grover.github.io), Todor Markov, Peter Attia, Norman Jin, Nicholas Perkins, Bryan Cheong, Michael Chen, Zi Yang, Stephen Harris, William Chueh, Stefano Ermon.  
+Aditya Grover, Todor Markov, Peter Attia, Norman Jin, Nicholas Perkins, Bryan Cheong, Michael Chen, Zi Yang, Stephen Harris, William Chueh, Stefano Ermon.  
 International Conference on Aritificial Intelligence and Statistics (AISTATS), 2018.   
 Paper: https://arxiv.org/abs/1803.10937
 
@@ -37,31 +37,31 @@ The `main.py` script which provides the following command line arguments.
 
 ## Examples
 
-### Test simulation for sequential MAB, partial feedback (everything else default)
+* Test simulation for sequential MAB, partial feedback (everything else default)
 
 ```
 python main.py --bsize 1
 ```
 
-### Test simulation for parallel MAB, partial feedback (everything else default)
+* Test simulation for parallel MAB, partial feedback (everything else default)
 
 ```
 python main.py --bsize 10
 ```
 
-### Resimulate the *bounded means* experiment in the paper
+* Resimulate the *bounded means* experiment in the paper
 
 ```
 python main.py --exp_type=bounded_means
 ```
 
-### Resimulate the *free means* experiment in the paper
+* Resimulate the *free means* experiment in the paper
 
 ```
 python main.py --exp_type=free_means
 ```
 
-### Resimulate the variation in *delays* experiment in the paper
+* Resimulate the variation in *delays* experiment in the paper
 
 ```
 python main.py --exp_type=delay
@@ -72,7 +72,7 @@ python main.py --exp_type=delay
 
 If you find this repository useful in your research, please consider citing the following paper:
 
->@inproceedings{grover2018flowgan,  
+>@inproceedings{grover2018best,  
   title={Best-arm identification in multi-armed bandits with delayed feedback},  
   author={Grover, Aditya and Markov, Todor and Attia, Peter and Jin, Norman and Perkins, Nicholas and Cheong, Bryan and Chen, Michael and Yang, Zi and Harris, Stephen and Chueh, William and Ermon, Stefano},  
   booktitle={International Conference on Aritificial Intelligence and Statistics},  
