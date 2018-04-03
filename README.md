@@ -21,16 +21,16 @@ pip install -r requirements.txt
 The `main.py` script which provides the following command line arguments.
 
 ```
-  --exp_type STR          free_means', 'bounded_means', 'delay', or 'none'. First three reproduce paper results, 'none' is user-defined
-  --n INT 				  number of total arms
-  --delta FLOAT  		  1 - target confidence
-  --k INT 				  number of top arms to be identified
-  --std INT 			  standard deviation for full feedback
-  --bsize INT 			  batch size for parallel MAB
-  --d INT 				  delay of feedback
-  --pstd FLOAT 			  standard deviation for partial unbiased feedback
-  --seed INT 			  seed for simulations
-  --num_tries INT         number of simulations for reproducing paper experiments
+  --exp_type STR			free_means', 'bounded_means', 'delay', or 'none'. First three reproduce paper results, 'none' takes user-defined parameters below
+  --n INT					number of total arms
+  --delta FLOAT				1 - target confidence
+  --k INT					number of top arms to be identified
+  --std INT					standard deviation for full feedback
+  --bsize INT				batch size for parallel MAB
+  --d INT					delay of feedback
+  --pstd FLOAT				standard deviation for partial unbiased feedback
+  --seed INT				seed for simulations
+  --num_tries INT			number of simulations for reproducing paper experiments
 ```
 
 *Note*: For simplicity, we input scalars for `std`, `pstd`, `delay` parameters from the command line that are shared across arms. The code supports setting these parameters independently for each arm.
